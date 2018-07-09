@@ -87,10 +87,10 @@ var ruff = dog.bark();
 //Return mySum.
 
 function looper(array){
-  var mySum = 0;
-  for (var i = 0; i < array.length; i++) {
-    if((array[i]>=100)||(array[i]%2!=0)){
-      array[i] + mySum
+  var mySum = 0
+  for (var i = 0; i < array.length; i++){
+    if (array[i]>=100||array[i]%2!=0){
+      mySum+=array[i];
     }
   }
   return mySum;
